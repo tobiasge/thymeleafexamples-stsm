@@ -99,7 +99,7 @@
   <properties>
     <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
     <thymeleaf.version>3.0.5.RELEASE</thymeleaf.version>
-    <springframework.version>4.3.3.RELEASE</springframework.version>
+    <springframework.version>4.3.7.RELEASE</springframework.version>
   </properties>
   
 
@@ -304,21 +304,21 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.6.1</version>
+      <version>1.7.25</version>
       <scope>compile</scope>
     </dependency>
         
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <version>1.6.1</version>
+      <version>1.7.25</version>
       <scope>compile</scope>
     </dependency>
 
     <dependency>
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
-      <version>1.2.15</version>
+      <version>1.2.17</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
